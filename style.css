@@ -1,0 +1,36 @@
+body>ul>li {
+  list-style: none ;
+  display:inline;
+  position:relative;
+  left:43%;
+}
+.zag{
+    text-align: center
+    
+}
+ul>li::before {
+  content: attr(data-icon);
+  font-size: 1.25em;
+}
+nav>ul>li:nth-child(2){
+    text-decoration: line-through;
+    }
+  p:first-letter {
+    color: red; /* Красный цвет первой буквы */
+   }
+   p:first-line{
+    font-size:130%;
+   }
+   p{
+    text-align-last: center;
+  }
+   
+  .n{
+    width: 100px;
+    height:100px;
+    float: right;
+  }
+  .h{
+    width: 100px;
+    height:100px;
+    float: left;
